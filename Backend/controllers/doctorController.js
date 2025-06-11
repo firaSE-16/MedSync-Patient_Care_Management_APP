@@ -5,6 +5,7 @@ const Appointment = require('../models/appointmentModel');
 const User = require('../models/userModel');
 const asyncHandler = require('express-async-handler');
 
+
 // @desc    Get doctor's appointments
 // @route   GET /api/doctor/appointments
 // @access  Private/Doctor
