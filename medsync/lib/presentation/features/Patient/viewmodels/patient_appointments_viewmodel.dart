@@ -32,7 +32,7 @@ class PatientAppointmentsViewModel extends StateNotifier<PatientAppointmentsStat
 
   PatientAppointmentsViewModel(this._getAppointmentsUseCase)
       : super(PatientAppointmentsState(appointments: const AsyncValue.loading())) {
-    fetchAppointments(); // Fetch all initially
+    fetchAppointments(); 
   }
 
   Future<void> fetchAppointments({String? status, bool? upcoming}) async {
