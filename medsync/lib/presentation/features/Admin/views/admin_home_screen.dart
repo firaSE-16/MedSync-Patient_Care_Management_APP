@@ -16,7 +16,7 @@ class AdminHomeScreen extends ConsumerStatefulWidget {
 
 class _AdminHomeScreenState extends ConsumerState<AdminHomeScreen> {
   final TextEditingController _searchController = TextEditingController();
-  String selectedRole = 'doctor'; // Default selected role for the home screen
+  String selectedRole = 'doctor'; 
 
   @override
   void initState() {
