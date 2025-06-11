@@ -3,6 +3,7 @@ const router = express.Router();
 const doctorController = require('../controllers/doctorController');
 const { authenticate, authorize } = require('../middlewares/authMiddlewares');
 
+
 // Get doctor's appointments
 router.get(
   '/appointments',
