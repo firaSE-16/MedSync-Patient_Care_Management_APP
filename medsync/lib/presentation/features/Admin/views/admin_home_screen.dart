@@ -75,7 +75,7 @@ class _AdminHomeScreenState extends ConsumerState<AdminHomeScreen> {
                   fillColor: const Color(0xFFEDE7F6),
                 ),
                 onChanged: (query) {
-                  // _onSearchChanged handles this automatically due to listener
+                
                 },
               ),
             ),
@@ -88,7 +88,7 @@ class _AdminHomeScreenState extends ConsumerState<AdminHomeScreen> {
               child: IconButton(
                 icon: const Icon(Icons.notifications_none, color: Colors.black54),
                 onPressed: () {
-                  // TODO: Implement notification action
+                  
                 },
               ),
             ),
