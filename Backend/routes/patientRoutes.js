@@ -77,5 +77,4 @@ router.get(
 router.get('/patients',authenticate,
   authorize('patient'), patientController.getPatientPrescriptions);
 
-
 module.exports = router;
