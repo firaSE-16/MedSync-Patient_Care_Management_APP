@@ -309,3 +309,4 @@ exports.getPatientPrescriptions = asyncHandler(async (req, res) => {
     data: prescriptions
   });
 });
+
