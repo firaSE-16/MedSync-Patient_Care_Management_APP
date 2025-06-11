@@ -16,7 +16,7 @@ class _IntroScreenState extends State<IntroScreen> {
   final List<Map<String, String>> _pages = [
     {
       'image': 'assets/images/intro1.png', 
-      'title': 'Your Health, Streamlined and Simple', // Updated title for the first screen
+      'title': 'Your Health, Streamlined and Simple', 
       'description': 'Say goodbye to missed appointments and lost prescriptions. Medsync keeps you connected to your doctor, anytime, from anywhere.' // Updated description
     },
     {
