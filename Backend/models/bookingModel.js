@@ -59,7 +59,7 @@ const BookingSchema = new Schema({
 });
 
 
-// Update the updatedAt field before saving
+//  Update the updatedAt field before saving
 BookingSchema.pre('save', function(next) {
     this.updatedAt = Date.now();
     next();
