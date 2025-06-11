@@ -256,7 +256,7 @@ class _AdminHomeScreenState extends ConsumerState<AdminHomeScreen> {
             IconButton(
               icon: const Icon(Icons.arrow_forward_ios, color: Colors.grey),
               onPressed: () {
-                // Navigate to user detail
+                
                 context.go('${AppRoutes.adminStaff}/${user.id}'); // Reusing staff detail route for now
               },
             ),
