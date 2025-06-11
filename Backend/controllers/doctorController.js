@@ -35,7 +35,6 @@ exports.getDoctorAppointments = asyncHandler(async (req, res) => {
     data: appointments
   });
 });
-
 // @desc    Get patient details with medical history
 // @route   GET /api/doctor/patients/:id
 // @access  Private/Doctor
